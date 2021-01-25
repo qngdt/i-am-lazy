@@ -13,7 +13,7 @@ func main() {
 		Name:  "Chứng khoán CLI",
 		Usage: "Đốt tiền",
 		Action: func(c *cli.Context) error {
-			exec.Command("open", "https://banggia.vps.com.vn/").Run()
+			exec.Command("open", "https://banggiav2.vps.com.vn/").Run()
 			return nil
 		},
 	}
